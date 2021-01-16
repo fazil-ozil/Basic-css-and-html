@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    top: 15px;
+    
+}
+header a:hover{
+    color: white;
+}
+header a{
+    background-color: rgba(228, 158, 28, 0.5);
+    color: rgb(202, 202, 200);
+    text-decoration: none;
+    margin: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.25s ease-in-out;
+}
+main{
+
+    color: white;
+    background-image: url(./pexels-nick-wehrli-5717798.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin: 0;
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+    mix-blend-mode: overlay;
+
+}
